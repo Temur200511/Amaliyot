@@ -11,7 +11,6 @@
 }
 
 body {
-  font: Styrene A Web;
   font-family: "Styrene A Web";
 }
 
@@ -115,8 +114,6 @@ header img {
   width: 100%;
 }
 
-.second {
-}
 
 .px_89 {
   color: #ffffff;
@@ -242,5 +239,98 @@ article {
 .contents {
   margin-top: 80px;
   display: flex;
-  gap: 20px;
+  gap: 40px;
+}
+
+
+.cont{
+  top: -40px;
+right: 425px;
+}
+
+
+
+.pro_quality{
+  position: relative;
+  margin-top: 240px;
+}
+
+
+.quality{
+position: absolute; 
+right: 0;
+top: -100px;
+}
+
+.techs{
+  position: relative;
+  margin-top: 90px;
+  display: flex;
+  row-gap: 40px;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.vec{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  right:  0;
+  top: -90px;
+}
+
+
+.techs img{
+  align-items: center;
+  width: 730px;
+}
+
+footer{
+  background-color: #15171B;
+}
+
+.contact{
+  padding-top: 80px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.last_r{
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.glavniy{
+  color: #FFFFFF;
+}
+
+.cent{
+  color: #FFFFFF;
+}
+
+
+.email{
+  color: #FFFFFF;
+
+}
+
+.last{
+  padding-top: 40px;
+  width: 500px;
+  color: #FFFFFF;
+}
+
+.last p a{
+  color: #00D162;
+
+}
+
+.copy{
+  width: 700px;
+  margin: auto;
+  padding-bottom: 80px;
 }
